@@ -33,13 +33,9 @@ function runEnter() {
 // Get the value property of the input element
   var inputValue = inputElement.property("value");
 
-// Print inputValue;
-//   Print tableData;
+// Print tableData;
 
   var filteredData = data.filter(ufo => ufo.datetime === inputValue);
-
-// Print filteredData;
-
  
  // Remove any children from the list 
  tbody.html("");
